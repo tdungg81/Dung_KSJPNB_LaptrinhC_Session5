@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+  
+    for (int a = 1; a <= 9; a++) {
+        printf("Bang cuu chuong cua %d:\n", a);
+        for (int i = 1; i <= 10; i++) {
+            printf("%d x %d = %d\n", a, i, a * i);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
